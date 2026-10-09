@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Axiom Tech — original mobile games</title>
+<meta name="description" content="Axiom Tech is a one-person studio in Antwerp, Belgium, making original mobile games for Android and iOS.">
+<meta name="theme-color" content="#2a3be6">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <a class="wordmark" href="./"><span class="wordmark-tile" aria-hidden="true"></span>Axiom Tech</a>
+  <nav class="nav" aria-label="Main">
+    <a href="./" aria-current="page">Games</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
+<main id="main">
+<section class="opening">
+  <div class="opening-text">
+    <h1>Small games with clear rules.</h1>
+    <p>Axiom Tech is a one-person studio in Antwerp, Belgium, making original mobile games for Android and iOS.</p>
+  </div>
+  <div class="puzzle">
+    <div class="board" id="board" role="group" aria-label="Tile puzzle"></div>
+    <div class="puzzle-bar">
+      <p class="puzzle-status" id="puzzle-status" aria-live="polite">Press a tile. It flips, and so do its neighbours. Make them all yellow.</p>
+      <button class="button" id="puzzle-new" type="button">New puzzle</button>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <h2>First game in the works</h2>
+  <div class="band-body">
+    <p>Nothing is in the stores yet. The first game is being built now and will come out on Google Play and the App Store.</p>
+    <p>Each game starts from an original idea and a set of rules you can learn in a minute.</p>
+  </div>
+</section>
+
+<section class="band">
+  <h2>Questions about a game</h2>
+  <div class="band-body">
+    <a class="email" href="mailto:info@axiomtech.be">info@axiomtech.be</a>
+    <p>Write in English or Dutch. Mention the game and the phone or tablet you play on, and you will usually hear back within a few working days.</p>
+  </div>
+</section>
+</main>
+<footer class="footer">
+  <address>
+    <strong>Axiom Tech</strong><br>
+    Axiom Media &amp; Tech<br>
+    Orchideeënstraat 19 bus 201<br>
+    2610 Antwerpen, Belgium
+  </address>
+  <div>
+    Enterprise number 1037.702.139<br>
+    VAT BE 1037.702.139<br>
+    <a href="mailto:info@axiomtech.be">info@axiomtech.be</a>
+  </div>
+  <div class="footer-links">
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy policy</a>
+  </div>
+</footer>
+<script src="puzzle.js" defer></script>
+</body>
+</html>
